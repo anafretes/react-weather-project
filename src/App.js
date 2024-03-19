@@ -10,7 +10,10 @@ export default function App() {
           SheCodes
         </a>
         . This is{" "}
-        <a href="/" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/anafretes/react-weather-project"
+          target="_blank"
+          rel="noreferrer">
           open-source
         </a>{" "}
         code.
