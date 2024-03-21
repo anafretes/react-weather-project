@@ -28,15 +28,15 @@ body {
   list-style: none;
 }
 
+.Weather canvas {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
 .Weather .temperature {
   font-weight: 400;
   font-size: 64px;
   color: rgb(33, 33, 33);
-}
-
-.Weather canvas {
-  margin-right: 5px;
-  margin-top: 5px;
 }
 
 .Weather .unit {
