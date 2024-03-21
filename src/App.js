@@ -20,11 +20,17 @@ export default function App() {
           </a>{" "}
           code. Hosted on{" "}
           <a
-            href="https://react-weather-app-sc.netlify.app/"
+            href="https://week6-react-weather.netlify.app/"
             target="_blank"
             rel="noreferrer">
             Netlify
           </a>
+          {/* <a
+            href="https://react-weather-app-sc.netlify.app/"
+            target="_blank"
+            rel="noreferrer">
+            Netlify
+          </a> */}
           .
         </footer>
       </div>
