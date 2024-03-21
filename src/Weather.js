@@ -73,7 +73,7 @@ export default function Weather(props) {
     search();
     return (
       <div className="text-center">
-        <Loader />;
+        <Loader />
       </div>
     );
   }
