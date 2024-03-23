@@ -23,10 +23,21 @@ export default function FormattedDate(props) {
     "Saturday",
   ];
 
-  let formattedDay = days[day];
-  return (
-    <div>
-      {formattedDay} {hours}:{minutes}
-    </div>
-  );
+  let shortDays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+  let formattedDay = "";
+
+  if (props.short) {
+    formattedDay = shortDays[day];
+
+    return <div>{formattedDay}</div>;
+  } else {
+    formattedDay = days[day];
+
+    return (
+      <div>
+        {formattedDay} {hours}:{minutes}
+      </div>
+    );
+  }
 }
